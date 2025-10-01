@@ -1,0 +1,5 @@
+{
+  "name": "Jaron's SkiFree Battle",
+  "description": "A simple recreation of the classic SkiFree game using React and Tailwind CSS. Navigate the skier down the slope, avoid the obstacles, and try to live the longest!",
+  "requestFramePermissions": []
+}
