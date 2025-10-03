@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles for the game container */
+body {
+    @apply bg-slate-800 flex justify-center items-center h-screen w-screen overflow-hidden;
+}
+
+#root {
+    @apply h-full w-full flex justify-center items-center;
+}
+
+/* Set up the game world dimensions */
+.game-world {
+    /* Fixed aspect ratio to mimic the original game's feel */
+    width: min(80vw, 600px); 
+    height: min(90vh, 800px);
+    @apply bg-white relative shadow-2xl overflow-hidden;
+}
